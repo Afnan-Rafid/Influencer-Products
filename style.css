@@ -20,6 +20,7 @@
     gap: 20px;
 }
 
+/* nav strt*/
 nav {
     display: flex;
     justify-content: space-between;
@@ -67,8 +68,9 @@ nav i {
 nav i:hover{
     color: rgb(96, 185, 185);
 }
+/*nav end*/
 
-
+/*hero strt*/
 .hero-left {
     width: 50%;
     align-items: center;
@@ -110,6 +112,9 @@ nav i:hover{
     background-color: #9f335a;
 }
 
+/*hero end*/
+
+/*sponser*/
 
 .image-row{
     display: flex;
@@ -125,7 +130,10 @@ nav i:hover{
     height: 110px;
     box-shadow: 0px -9px 10px -16px #111,0px 9px 10px -16px #111;
 }
+/*sponser end*/
 
+
+/* popular card*/
 .text {
     font-size: 20px;
     font-weight: 500;
@@ -202,6 +210,11 @@ nav i:hover{
     color: rgb(143, 194, 238);
 }
 
+/*popular end*/
+
+
+/* feature strt*/
+
 
 .feature {
     display: flex;
@@ -249,6 +262,11 @@ nav i:hover{
 .feature-text button:hover{
     background-color: #3A3A3A;
 }
+
+/*feature end*/
+
+
+/*footer*/
 
 
 footer {
@@ -299,3 +317,5 @@ footer {
     cursor: pointer;
     
 }
+
+/*footer end*/
